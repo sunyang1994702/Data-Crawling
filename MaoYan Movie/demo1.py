@@ -53,7 +53,7 @@ def main():
 
     while start_time > end_time:
         ## At almost 15 reviews for one time request. So changing startTime to get more reviews. 
-        url = 'http://m.maoyan.com/mmdb/comments/movie/1299372.json?_v_=yes&offset=15&startTime=' + start_time.replace(' ', '%20')
+        url = 'http://m.maoyan.com/mmdb/comments/movie/{}.json?_v_=yes&offset=15&startTime='.format(movie_id) + start_time.replace(' ', '%20')
         html = ""
         try:
             html = get_data(url)
@@ -75,6 +75,8 @@ def main():
         
 
 if __name__ == '__main__':
+    ## <你好，李焕英>
+    movie_id = '1299372'
     main()
-    ## 你好，李焕英
-    ## movie_id = '1299372'
+
+
