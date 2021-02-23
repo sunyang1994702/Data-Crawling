@@ -6,4 +6,6 @@ BeautifulSoup was used in parsing this website.
 ## MaoYan Movie
 This is a chinese movie website. https://maoyan.com/films/  
 Json was used in parsing thes website.  
-It needs an API interface to access previous history user's reviews. Reference: https://zhuanlan.zhihu.com/p/64973824
+You can not acheive more than 10 reviews from this website simply, Even this movie website has no restriction for scrapying data.  
+There has an API interface to access and get previous history user's reviews. Reference: https://zhuanlan.zhihu.com/p/64973824  
+Also the cookie is necessary, otherwise it will return None.
