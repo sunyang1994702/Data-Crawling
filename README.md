@@ -1,9 +1,9 @@
 # Data-Crawling
-Some examples about scrapying data from website! There has many method for parsing html content such as Regular expression, BeautifulSoup, Json, Selenium.
+Some examples about scrapying data from website! There has many method for parsing html content such as Regular expression, BeautifulSoup, Json, Scrapy, Selenium.
 ## Forbes Ranking List
 This is a World Rich List ranking website. https://www.forbeschina.com/lists/1733  
 BeautifulSoup was used in parsing this website. 
-## MaoYan Movieselenium
+## MaoYan Movie
 This is a chinese movie website. https://maoyan.com/films/  
 Json was used in parsing thes website.  
 It needs an API interface to access previous history user's reviews. Reference: https://zhuanlan.zhihu.com/p/64973824
