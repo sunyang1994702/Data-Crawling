@@ -41,7 +41,7 @@ def parse_data(html):
 
 
 def save_data(comments):
-    with open("Maoyan_review.csv", 'a+', newline='', encoding='utf-8-sig') as f:
+    with open("nihaolihuanying_review.csv", 'a+', newline='', encoding='utf-8-sig') as f:
         f_csv = csv.writer(f)
         f_csv.writerows(comments)
 
